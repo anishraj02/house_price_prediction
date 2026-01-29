@@ -4,7 +4,6 @@ import numpy as np
 import joblib
 
 # Load trained pipeline
-@st.cache_resource
 def load_model():
     return joblib.load("house_price_pipeline.joblib")
 
