@@ -4,7 +4,11 @@ import numpy as np
 import joblib
 
 # Load trained pipeline
-model = joblib.load("house_price_pipeline.joblib")
+@st.cache_resource
+def load_model():
+    return joblib.load("house_price_pipeline.joblib")
+
+model = load_model()
 
 # Feature schema
 ALL_FEATURES = model.feature_names_in_
