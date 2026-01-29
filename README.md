@@ -8,9 +8,13 @@ The project covers data analysis, feature engineering, model development, deploy
 • Comprehensive Exploratory Data Analysis (EDA) with business insights
 
 • Robust preprocessing using Scikit-learn Pipelines & ColumnTransformer
+
 • Trained and compared multiple regression models
+
 • Hyperparameter tuning for optimal performance
+
 • Feature importance for interpretability
+
 • Deployed real-time prediction system using Streamlit
 
 📊 Dataset
@@ -19,8 +23,11 @@ Ames Housing Dataset
 Contains 79 features describing residential properties including:
 
 • Property quality & size
+
 • Basement and garage details
+
 • Neighborhood (location)
+
 • Construction year & renovations
 
 Target variable: SalePrice
@@ -29,21 +36,28 @@ Target variable: SalePrice
 1️⃣ Data Analysis
 
 • Missing value handling
+
 • Skewness treatment using log transformation
+
 • Outlier detection
+
 • Correlation analysis
 
 2️⃣ Feature Engineering
 
 • Numerical scaling
+
 • Categorical encoding using OneHotEncoder
+
 • Automated preprocessing pipeline
 
 3️⃣ Model Training
 
-• Models evaluated:
+Models evaluated:
 • Linear Regression
+
 • Random Forest Regressor
+
 • Gradient Boosting Regressor
 
 4️⃣ Best Model
@@ -55,9 +69,13 @@ Target variable: SalePrice
 📈 Feature Importance (Top Drivers)
 
 • Overall Quality
+
 • Living Area (GrLivArea)
+
 • Basement Size
+
 • Garage Area
+
 • Construction Year
 
 These align with real-world real estate pricing factors.
@@ -66,17 +84,25 @@ These align with real-world real estate pricing factors.
 Features:
 
 • Quick price estimation
+
 • Location-aware predictions
+
 • User-friendly interface
+
 • Real-time ML inference
 
 🛠 Tech Stack
 
 • Python
+
 • Pandas, NumPy
+
 • Scikit-learn
+
 • Matplotlib, Seaborn
+
 • Streamlit
+
 • Joblib
 
 ▶️ Run Locally
@@ -96,8 +122,11 @@ DS_HousePP/
 📌 Future Improvements
 
 • Add model explainability with SHAP
+
 • Integrate map-based location visualization
+
 • Extend to price trend forecasting
+
 • Cloud deployment with CI/CD
 
 👤 Author
