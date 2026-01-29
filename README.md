@@ -6,6 +6,7 @@ The project covers data analysis, feature engineering, model development, deploy
 📌 Project Highlights
 
 • Comprehensive Exploratory Data Analysis (EDA) with business insights
+
 • Robust preprocessing using Scikit-learn Pipelines & ColumnTransformer
 • Trained and compared multiple regression models
 • Hyperparameter tuning for optimal performance
